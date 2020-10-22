@@ -1,0 +1,60 @@
+// font-family: 'Libre Caslon Text', serif;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+ body{
+   width: 100%;
+   height:auto;
+   margin:0;
+ }
+ 
+ #title {
+  background-color:rgba(231, 231, 231, 0.5);
+  font-family: 'Libre Caslon Text', serif;
+  font-size: .7em;
+  position:absolute;
+  text-align:center;
+  top:25%;
+  left:50%;
+  transform:translate(-50%, -15%);
+  width:100%;
+  z-index: 100;
+}
+#img-div {
+  background-position:center top;
+  background-repeat:no-repeat;
+  position:relative;
+  text-align:center;
+}
+#image {
+  display:block;
+  margin: 0 auto;
+  text-align:center;
+  max-width: 100%;
+}
+#img-caption{
+  color:#381c33;
+  font-family: 'Libre Caslon Text', serif;
+  font-size:.75em;
+  text-align: center;
+}
+#tribute-info {
+  margin:25px;
+}
+section{
+  color:red;
+}
+#emerald-cut {
+  width:40%;
+  border: 4px solid #bada55;
+  border-radius: 50%;
+  float: right;
+}
+.amethyst-geode {
+  display: block;
+  float: left;
+}
